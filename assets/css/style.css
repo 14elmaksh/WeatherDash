@@ -1,3 +1,52 @@
-#head {
+header {
+    background-color: navy;
 
+    top: 0px;
+ 
+    
+    
+
+}
+    
+
+#head {
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+#searchcity {
+    text-align: center;
+     
+}
+
+.history {
+    height: 25px ;
+    width: 100px;
+
+
+}
+
+#recentsearches {
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.forecastbox {
+    background-color: aqua;
+    margin-top: 5px;
+    height: 290px;
+    margin-bottom: 0px;
+    width: 90px;
+    display: flexbox;
+
+}
+
+.flex-container {
+    display: flex;
 }

@@ -10,23 +10,94 @@
 
 <body>
     <header>
-<section>
+<section id="headersection">
     <div>
-        <h1 id="head">Weather Dashboard</h1>
+        <h1 id="head">WEATHER REPORT</h1>
     </div>
 </section>
     </header>
 <section id="searchcity">
     <div> 
         <h2>Search for a city</h2>
-        <input type="text" placeholder="search city">
-        <button>Search Now</button>
-    </div>
-
-    <div id="recentsearches">
-
+        <input id="citydata" type="text" placeholder="search city">
+        <button id="searchbutton">Search Now</button>
     </div>
 </section>
+
+<section id="recentsearches">
+
+    <button class="history"></button>
+    <button class="history"></button>
+    <button class="history"></button>
+    <button class="history"></button> 
+</section>
+
+
+
+
+
+<section id="currentsearch">
+
+    <h5 id="temperature">Temp: </h5>
+    <h5 id="windy">Wind: </h5>
+    <h5 id="humid">Humidity: </h5>
+    <h5 id="uvi">UV Index: </h5>
+    
+</section>
+
+
+
+<section" style="display: flex;
+flex-direction: row;
+align-items: baseline;
+justify-content: space-evenly;">
+ 
+    <h2 id="flex-container">5-Day Forcast:</h2>
+
+    <div class="forecastbox"> 
+        <h3 id="date1"> </h3>
+        <img id="img1">
+        <h6 id="temp1">Temp: </h6>
+        <h6 id="wind1">Wind: </h6>
+        <h6 id="humid1">Humidity: </h6>
+    </div>
+
+    <div id="day2" class="forecastbox">
+        <h3 id="date2"> </h3>
+        <img id="img2">
+        <h6 id="temp2">Temp: </h6>
+        <h6 id="wind2">Wind: </h6>
+        <h6 id="humid2">Humidity: </h6>
+    </div>
+
+    <div id="day3" class="forecastbox"> 
+        <h3 id="date3"> </h3>
+        <img id="img3">
+        <h6 id="temp3">Temp: </h6>
+        <h6 id="wind3">Wind: </h6>
+        <h6 id="humid3">Humidity: </h6>
+    </div>
+
+    <div id="day4" class="forecastbox">
+        <h3 id="date4"> </h3>
+        <img id="img4">
+        <h6 id="temp4">Temp: </h6>
+        <h6 id="wind4">Wind: </h6>
+        <h6 id="humid4">Humidity: </h6></div>
+    </div>
+
+    <div id="day5" class="forecastbox"> 
+        <h3 id="date5"> </h3>
+        <img id="img5">
+        <h6 id="temp5">Temp: </h6>
+        <h6 id="wind5">Wind: </h6>
+        <h6 id="humid5">Humidity: </h6></div>
+    </div>
+
+</section>
+
+  
+
    
 
 
